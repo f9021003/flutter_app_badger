@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'fr.g123k.flutterappbadger' // 加這行，跟 package name 對應
     compileSdkVersion 29
 
     defaultConfig {
